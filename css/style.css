@@ -128,9 +128,18 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
+/* TABLET */
 @media (max-width: 768px) {
     body {
         width: fit-content;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
