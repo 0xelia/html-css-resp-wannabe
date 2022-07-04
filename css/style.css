@@ -134,12 +134,20 @@ img {
     header,
     main,
     section {
-        width: 100vw;
+        width: fit-content;
+    }
+
+    .site-header {
+        margin: 3rem auto;
     }
 
     .container {
         max-width: 750px;
         margin: 0 auto
+    }
+
+    .row {
+        width: 100%;    
     }
 
     body {
@@ -153,17 +161,22 @@ img {
     header,
     main,
     section {
-        width: 100vw;
+        width: fit-content;
+    }
+    
+    .site-header {
+        margin: 3rem auto;
     }
 
     .container {
-        max-width: 450px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .row {
         flex-direction: column;
         align-items: center;
         gap: 65px;
+        width: 100%;
     }
 
     .steps .col, .lessons .col {
