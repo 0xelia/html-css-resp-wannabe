@@ -128,13 +128,36 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* BONUS 1200 PX */
+    
+   @media (max-width: 1200px) {
+    .site-header,
+        .lessons,
+        .steps,
+        .why-us {
+            width: 100vw;
+        }
+        
+        .site-header {
+            margin: 3rem auto;
+        }
+        
+        .container {
+            max-width: 90vw;
+            margin: 0 auto
+        }
+
+   }
+
+
 /* TABLET */
 @media (max-width: 768px) {
 
-    header,
-    main,
-    section {
-        width: fit-content;
+    .site-header,
+    .lessons,
+    .steps,
+    .why-us {
+        width: 100vw;
     }
 
     .site-header {
@@ -142,7 +165,7 @@ img {
     }
 
     .container {
-        max-width: 750px;
+        max-width: 90vw;
         margin: 0 auto
     }
 
@@ -158,10 +181,11 @@ img {
 /* MOBILE */
 @media (max-width: 480px) {
 
-    header,
-    main,
-    section {
-        width: fit-content;
+    .site-header,
+    .lessons,
+    .steps,
+    .why-us {
+        width: 100vw;
     }
     
     .site-header {
@@ -169,7 +193,7 @@ img {
     }
 
     .container {
-        max-width: 400px;
+        max-width: 90vw;
         margin: 0 auto;
     }
     .row {
